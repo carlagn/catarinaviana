@@ -1,7 +1,5 @@
 # catarinaviana
 
-> My slick Nuxt.js project
-
 ## Build Setup
 
 ``` bash

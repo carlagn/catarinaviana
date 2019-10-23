@@ -5,6 +5,9 @@
         catarinaviana
       </h1>
     </div>
+    <div class="content">
+      <img src="https://dummyimage.com/400x600/000/fff">
+    </div>
   </div>
 </template>
 

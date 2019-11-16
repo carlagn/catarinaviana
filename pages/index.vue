@@ -18,8 +18,14 @@
 
 <style lang="scss">
 .container {
-  margin: 78px auto 0 auto;
   min-height: 100vh;
+  margin: 38px auto 0 auto;
+  @media (min-width: 630px) {
+    margin: 53px auto 0 auto;
+  }
+  @media (min-width: 890px) {
+    margin: 78px auto 0 auto;
+  }
 }
 
 .content {

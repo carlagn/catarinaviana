@@ -56,22 +56,31 @@ html {
   padding-top: 35px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   top: 0;
   position: fixed;
-
+  @media (min-width: 890px) {
+    justify-content: center;
+  }
   a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     font-family: 'Work Sans', sans-serif;
-    font-size: 80px;
+    font-size: 30px;
     text-transform: uppercase;
-    line-height: 150px;
     margin-left: 2px;
     font-weight: bold;
+    line-height: 70px;
     &:hover {
       text-decoration: underline;
+    }
+    @media (min-width: 630px) {
+      font-size: 50px;
+      line-height: 100px;
+    }
+    @media (min-width: 890px) {
+      line-height: 150px;
+      font-size: 80px;
     }
   }
 }
@@ -80,19 +89,27 @@ html {
   right: 5px;
   cursor: pointer;
   top: 50%;
-  width: 100px;
-  padding: 25px;
+  height: 20px;
+  width: 30px;
   justify-content: space-between;
   display: flex;
-  height: 100%;
   z-index: 100;
   flex-direction: column;
   transform: translateY(-50%);
-}
-.bar {
-  width: 100%;
-  height: 5px;
-  background: black;
+
+  .bar {
+    width: 100%;
+    height: 4px;
+    background: black;
+  }
+
+  @media (min-width: 630px) {
+    height: 30px;
+    width: 50px;
+    .bar {
+      height: 5px;
+    }
+  }
 }
 .navbar-wrapper {
   .title {
@@ -109,14 +126,30 @@ html {
     width: 100%;
     background: white;
     border-bottom: 1px solid black;
+    height: 40px;
     a {
       text-decoration: none;
-      font-size: 100px;
       color: black;
       letter-spacing: 0;
-      margin-left: -2px;
-      line-height: 70px;
       padding-bottom: 7px;
+      font-size: 35px;
+      line-height: 35px;
+    }
+
+    @media (min-width: 630px) {
+      height: 55px;
+      a {
+        margin-left: -2px;
+        font-size: 70px;
+        line-height: 50px;
+      }
+    }
+    @media (min-width: 890px) {
+      height: 80px;
+      a {
+        font-size: 100px;
+        line-height: 70px;
+      }
     }
   }
 
@@ -135,7 +168,7 @@ html {
       justify-content: center;
       .bar {
         position: absolute;
-        width: calc(100% - 50px);
+        width: 100%;
 
         &-1 {
           transform: rotate(-45deg);

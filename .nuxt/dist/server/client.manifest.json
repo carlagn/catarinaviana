@@ -16,29 +16,22 @@
     "img/000064.92c2e6e.JPG",
     "pages/about/index.60fc4c7.js",
     "pages/contacts/index.52f7161.js",
-    "pages/index.cdf9390.js",
+    "pages/index.e517f42.js",
     "pages/projects/index.2fdb483.js",
-    "runtime.02da1c3.js"
+    "runtime.e671512.js"
   ],
   "initial": [
-    "runtime.02da1c3.js",
+    "runtime.e671512.js",
     "commons/app.4f21e7e.js",
     "app.6442fcc.js"
   ],
   "async": [
     "pages/about/index.60fc4c7.js",
     "pages/contacts/index.52f7161.js",
-    "pages/index.cdf9390.js",
+    "pages/index.e517f42.js",
     "pages/projects/index.2fdb483.js"
   ],
   "modules": {
-    "25154863": [
-      15,
-      9,
-      10,
-      11,
-      12
-    ],
     "43838998": [
       3
     ],
@@ -1365,7 +1358,7 @@
     "1af37396": [
       16
     ],
-    "665a2de7": [
+    "20b70cad": [
       15,
       9,
       10,
@@ -1434,7 +1427,14 @@
       11,
       12
     ],
-    "4982186e": [
+    "411bb1ae": [
+      15,
+      9,
+      10,
+      11,
+      12
+    ],
+    "d4c85ae2": [
       15,
       9,
       10,
@@ -1517,7 +1517,7 @@
       11,
       12
     ],
-    "350521e4": [
+    "17c2bfac": [
       15,
       9,
       10,
@@ -1531,7 +1531,7 @@
       11,
       12
     ],
-    "61a17e44": [
+    "e36e81b8": [
       15,
       9,
       10,
@@ -1560,13 +1560,13 @@
       "pages/contacts/index.52f7161.js"
     ],
     "2a130dde": [
-      "pages/index.cdf9390.js"
+      "pages/index.e517f42.js"
     ],
     "7dffc99e": [
       "pages/projects/index.2fdb483.js"
     ],
     "6fca0322": [
-      "runtime.02da1c3.js"
+      "runtime.e671512.js"
     ]
   }
 }

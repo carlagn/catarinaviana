@@ -27,8 +27,5 @@
   line-height: 150px;
   margin-left: 2px;
   font-weight: bold;
-  &:hover {
-    text-decoration: underline;
-  }
 }
 </style>

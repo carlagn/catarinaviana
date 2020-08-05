@@ -9,9 +9,10 @@
       </div>
     </div>
     <div v-if="menuOpen" class="menu">
-      <nuxt-link to="/about">sobre</nuxt-link>
-      <nuxt-link to="/projects">projectos</nuxt-link>
-      <nuxt-link to="/contacts">contactos</nuxt-link>
+      <nuxt-link to="/about">about</nuxt-link>
+      <nuxt-link to="/personal">personal</nuxt-link>
+      <nuxt-link to="/projects">work</nuxt-link>
+      <nuxt-link to="/contacts">contact</nuxt-link>
     </div>
   </div>
 </template>
@@ -65,15 +66,12 @@ html {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'SequelSansBoldDisp';
     font-size: 30px;
     text-transform: uppercase;
     margin-left: 2px;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 70px;
-    &:hover {
-      text-decoration: underline;
-    }
     @media (min-width: 630px) {
       font-size: 50px;
       line-height: 100px;
@@ -113,8 +111,9 @@ html {
 }
 .navbar-wrapper {
   .title {
-    font-family: 'Space Mono', monospace;
+    font-family: 'SequelSansBlackHead';
     text-transform: uppercase;
+    font-weight: normal;
     display: block;
     font-weight: 600;
     width: 100%;

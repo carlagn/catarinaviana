@@ -1,0 +1,35 @@
+@font-face {
+ font-family: 'SequelSansBlackHead';
+ src: url('./Sequel-Sans-Black-Head.otf?v=4.4.0');
+ src: url('./Sequel-Sans-Black-Head.otf?#iefix&v=4.4.0') format('opentype');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'SequelSansBlackDisp';
+ src: url('./Sequel-Sans-Black-Disp.otf?v=4.4.0');
+ src: url('./Sequel-Sans-Black-Disp.otf?#iefix&v=4.4.0') format('opentype');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'SequelSansBoldBody';
+ src: url('./Sequel-Sans-Bold-Body.otf?v=4.4.0');
+ src: url('./Sequel-Sans-Bold-Body.otf?#iefix&v=4.4.0') format('opentype');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'SequelSansBoldDisp';
+ src: url('./Sequel-Sans-Bold-Disp.otf?v=4.4.0');
+ src: url('./Sequel-Sans-Bold-Disp.otf?#iefix&v=4.4.0') format('opentype');
+ font-weight: normal;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'SequelSansHeavyDisp';
+ src: url('./Sequel-Sans-Heavy-Disp.otf?v=4.4.0');
+ src: url('./Sequel-Sans-Heavy-Disp.otf?#iefix&v=4.4.0') format('opentype');
+ font-weight: normal;
+ font-style: normal;
+}

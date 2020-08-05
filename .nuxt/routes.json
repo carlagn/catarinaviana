@@ -1,0 +1,26 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\carla\\\\Documents\\\\proj\\\\catarinaviana\\\\pages\\\\about\\\\index.vue",
+    "chunkName": "pages/about/index"
+  },
+  {
+    "name": "contacts",
+    "path": "/contacts",
+    "component": "C:\\\\Users\\\\carla\\\\Documents\\\\proj\\\\catarinaviana\\\\pages\\\\contacts\\\\index.vue",
+    "chunkName": "pages/contacts/index"
+  },
+  {
+    "name": "projects",
+    "path": "/projects",
+    "component": "C:\\\\Users\\\\carla\\\\Documents\\\\proj\\\\catarinaviana\\\\pages\\\\projects\\\\index.vue",
+    "chunkName": "pages/projects/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\carla\\\\Documents\\\\proj\\\\catarinaviana\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
